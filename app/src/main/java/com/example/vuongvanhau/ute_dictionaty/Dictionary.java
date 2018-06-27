@@ -1,6 +1,7 @@
 package com.example.vuongvanhau.ute_dictionaty;
 
 public class Dictionary {
+
     private String word;
     public String getWord() {
         return word;
@@ -19,15 +20,19 @@ public class Dictionary {
     }
     public void setDnghia(String dnghia){this.dnghia = dnghia;}
 
-    private String tnghia;
-    public String getTnghia() {
-        return tnghia;
-    }
-    public void setTnghia(String tnghia){this.tnghia = tnghia;}
-
     private String image;
     public String getImage() {
         return image;
     }
     public void setImage(String image){this.image = image;}
+
+    public Dictionary() {
+
+    }
+    public Dictionary(String word,String nghia, String dnghia, String image) {
+        this.word=word;
+        this.nghia = nghia;
+        this.dnghia = dnghia;
+        this.image=image;
+    }
 }

@@ -5,14 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HistorySearchActivity">
-    <ScrollView
+    <ListView
+        android:id="@+id/wordhistorysearch"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <ListView
-            android:id="@+id/wordhistorysearch"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        </ListView>
-    </ScrollView>
+    </ListView>
 
 </LinearLayout>
